@@ -6,10 +6,12 @@ local util = import("micro/util")
 local utf8 = import("unicode/utf8")
 
 function init()
-    micro.SetStatusInfoFn("wc.w")
+    micro.SetStatusInfoFn("wc.cc")
+    micro.SetStatusInfoFn("wc.wc")
+    micro.SetStatusInfoFn("wc.lc")
     config.MakeCommand("wc", formatCount, config.NoComplete)
     config.AddRuntimeFile("wc", config.RTHelp, "help/wc.md")
-    config.TryBindKey("F5", "lua:wc.wc", false)
+    config.TryBindKey("F5", "lua:wc.formatCount", false)
 end
 
 function formatCount(b)
