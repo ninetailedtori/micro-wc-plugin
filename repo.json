@@ -4,8 +4,8 @@
     "Tags": ["wc", "word", "character", "line", "count", "selection"],
     "Versions": [
         {
-            "Version": "1.3",
-            "Url": "https://github.com/ninetailedtori/micro-wc-plugin/archive/v1.3.zip",
+            "Version": "2.0",
+            "Url": "https://github.com/ninetailedtori/micro-wc-plugin/archive/v2.0.zip",
             "Require": {
                 "micro": ">=2.0.0"
             }
