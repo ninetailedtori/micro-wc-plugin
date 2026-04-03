@@ -1,13 +1,13 @@
 [{
     "Name": "wc",
     "Description": "Plugin to count words/characters in micro",
-    "Tags": ["wc", "word", "character", "count"],
+    "Tags": ["wc", "word", "character", "line", "count", "selection"],
     "Versions": [
         {
-            "Version": "1.2.2",
-            "Url": "https://github.com/ninetailedtori/micro-wc-plugin/archive/v1.2.2.zip",
+            "Version": "1.3",
+            "Url": "https://github.com/ninetailedtori/micro-wc-plugin/archive/v1.3.zip",
             "Require": {
-                "micro": ">=1.1.0"
+                "micro": ">=2.0.0"
             }
         }
     ]
